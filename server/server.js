@@ -16,7 +16,7 @@ app.post('/api/refresh', (req, res) => {
     const refreshToken = req.body.refreshToken;
     
     const spotifyApi = new spotifyWebApi({
-        redirectUri: 'http://localhost:3000',
+        redirectUri: 'http://bluesoundvibe.com',
         clientId: '8e48633bb519433c82873afba9fa6d03',
         clientSecret: 'be7969f681874ca7b30c9806da088725',
         refreshToken
@@ -37,7 +37,7 @@ app.post('/api/refresh', (req, res) => {
     app.post('/api/login', (req, res) => {
         const code = req.body.code;
         const spotifyApi = new spotifyWebApi({
-            redirectUri: 'http://localhost:3000',
+            redirectUri: 'http://bluesoundvibe.com',
             clientId: '8e48633bb519433c82873afba9fa6d03',
             clientSecret: 'be7969f681874ca7b30c9806da088725',
         })
