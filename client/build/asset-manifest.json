@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47c6fc40.css",
+    "main.js": "/static/js/main.0b653678.js",
+    "static/media/future.jpg": "/static/media/future.dd8b3f113e443e8677f0.jpg",
+    "static/media/weeknd.jpg": "/static/media/weeknd.b7d8945addd77fc82de7.jpg",
+    "static/media/drak.jpg": "/static/media/drak.ffe47cee6ac211308126.jpg",
+    "static/media/travis.jpg": "/static/media/travis.c13db6117c255863cf94.jpg",
+    "static/media/kendrick.jpg": "/static/media/kendrick.4380e16ec462b56cb5bc.jpg",
+    "index.html": "/index.html",
+    "main.47c6fc40.css.map": "/static/css/main.47c6fc40.css.map",
+    "main.0b653678.js.map": "/static/js/main.0b653678.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c6fc40.css",
+    "static/js/main.0b653678.js"
+  ]
+}

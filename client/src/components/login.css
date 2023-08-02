@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Gasoek+One&family=Kaushan+Script&family=Libre+Baskerville&family=Lobster&family=Lobster+Two&family=Moirai+One&family=Orbit&family=Pacifico&family=Playfair+Display:wght@500&family=Tilt+Prism&family=VT323&family=Yatra+One&family=Yuji+Hentaigana+Akebono&display=swap');
+
+
+@keyframes animate{
+    0%,100%{
+        background-image: url('../images/drak.jpg');
+        width: 100%;
+    }
+    25%{
+        background-image: url('../images/travis.jpg');
+    }
+    37%{
+        background-image: url('../images/kendrick.jpg');
+    }
+    50%{
+        background-image: url('../images/weeknd.jpg');
+
+    }
+    75%{
+        background-image: url('../images/future.jpg');
+    }
+    
+}
+.box {
+    
+    
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    animation: animate 70s ease-in-out infinite ;
+}
+
+.smallBox {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97%;
+}
+
+  
+
+.btn span {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.linkBanner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3%;
+    background-color: cornflowerblue;
+}
